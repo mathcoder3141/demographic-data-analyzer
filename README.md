@@ -13,7 +13,7 @@ In this challenge you must analyze demographic data using Pandas. You are given 
 |  4 |    28 | Private          |   338409 | Bachelors   |              13 | Married-civ-spouse | Prof-specialty    | Wife           | Black  | Female |              0 |              0 |               40 | Cuba             | <=50K    |
 
 
-You must use Pandas to answer the following questions:
+Using Pandas, we answer the following questions:
 * How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (`race` column)
 * What is the average age of men?
 * What is the percentage of people who have a Bachelor's degree?
@@ -24,9 +24,7 @@ You must use Pandas to answer the following questions:
 * What country has the highest percentage of people that earn >50K and what is that percentage?
 * Identify the most popular occupation for those who earn >50K in India. 
 
-Use the starter code in the file `demographic_data_anaylizer`. Update the code so all variables set to "None" are set to the appropriate calculation or code. Round all decimals to the nearest tenth.
-
-Unit tests are written for you under `test_module.py.
+Unit tests for this analysis are written in `test_module.py`
 
 ### Dataset Source
 
